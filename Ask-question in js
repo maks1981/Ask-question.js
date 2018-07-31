@@ -1,0 +1,38 @@
+Ask-question game.
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Annoy O Matic</title>
+	<script type="text/javascript" src="annoy.js"></script>
+</head>
+<body>
+
+</body>
+</html>
+
+<!--js files-->
+ Version 1
+
+var askQuestion = prompt("Are we there yet?")
+while(askQuestion !== "yes" && askQuestion !== "yeah"){
+	var askQuestion = prompt("Are we there yet?");
+}
+alert("Yes we made it!!!");
+
+Version 2
+
+var askQuestion = prompt("Are we there yet?")
+while(askQuestion.indexOf("yes") === -1){
+	var askQuestion = prompt("Are we there yet?");
+}
+alert("Yes we made it!!!");
+
+
+
+
+
+
+
+
+
